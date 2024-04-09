@@ -27,7 +27,7 @@ class WebViewViewController: UIViewController {
         webView.navigationDelegate = self
         
         guard let url = URL(string: AppConstants.mainURL) else{
-            logger.log("Web URL is not accurate.")
+            logger.log("\(L10n.WebViewController.Error.urlNotAccurate)")
             return
         }
         
