@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  UIC
+
+  Created by Som on 09/04/24.
+  
+*/
+"WebViewController.Error.URLNotAccurate" = "Web URL is not accurate.";

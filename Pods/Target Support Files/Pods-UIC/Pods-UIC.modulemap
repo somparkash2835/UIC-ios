@@ -1,0 +1,6 @@
+framework module Pods_UIC {
+  umbrella header "Pods-UIC-umbrella.h"
+
+  export *
+  module * { export * }
+}
